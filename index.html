@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andy Ferretería</title>
+    <link rel="stylesheet" href="styles css/styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Ir al contenido</a>
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="brand" href="#inicio" aria-label="Andy Ferretería - Inicio">
+                <span class="brand__logo" aria-hidden="true">AF</span>
+                <span class="brand__name">Andy Ferretería</span>
+            </a>
+            <nav class="nav" aria-label="Principal">
+                <a href="#inicio">Inicio</a>
+                <span>|</span>
+                <a href="#productos">Productos</a>
+                <span>|</span>
+                <a href="#servicios">Servicios</a>
+                <span>|</span>
+                <a href="#ubicacion">Ubicación</a>
+                <span>|</span>
+                <a href="#horarios">Horarios</a>
+                <span>|</span>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="hero__bg"
+                style="background-image: url('images/entrada.jpg');"
+                role="img"
+                aria-label="Entrada de Andy Ferretería"
+            ></div>
+            <div class="hero__content">
+                <h1 id="hero-title">Andy Ferretería</h1>
+                <p class="tagline">Tu socio de confianza para obra y mantenimiento</p>
+                <a class="btn btn--primary" href="#productos">Ver Productos</a>
+            </div>
+        </section>
+
+        <section id="sobre-nosotros" aria-labelledby="sobre-title">
+            <div class="section__inner">
+            <h2 class="section-title" id="sobre-title">Sobre Nosotros</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-intro">
+                        <strong>Andy Ferretería</strong> ofrece materiales de calidad
+                        para electricidad, construcción, pintura y plomería en Quito,
+                        con asesoría clara para ferreteros, contratistas y hogares.
+                    </p>
+
+                    <div class="about-vm" aria-label="Misión y visión">
+                        <div class="about-vm__block">
+                            <h3>Misión</h3>
+                            <p>
+                                Facilitar cada proyecto de obra y mantenimiento con
+                                surtido confiable, precios justos y servicio cercano:
+                                entregas y pedidos personalizados cuando el cliente lo
+                                necesita.
+                            </p>
+                        </div>
+                        <div class="about-vm__block">
+                            <h3>Visión</h3>
+                            <p>
+                                Ser la ferretería de referencia en la zona, reconocida por
+                                la confianza en nuestros productos, la rapidez en pedidos
+                                especiales y el acompañamiento honesto a quien construye o
+                                remodela.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <figure class="video-wrap">
+                <iframe
+                    src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                    title="Video demostrativo — ejemplo multimedia"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+                <figcaption class="visually-hidden">Video demostrativo</figcaption>
+                </figure>
+            </div>
+            </div>
+        </section>
+
+        <section id="productos" aria-labelledby="productos-title">
+            <div class="section__inner">
+            <h2 class="section-title section-title--caps" id="productos-title">
+                Nuestros Productos
+            </h2>
+
+            <div class="product-grid">
+                <figure class="product-card">
+                <img
+                    src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                    alt="Materiales eléctricos: cables y componentes"
+                    width="600"
+                    height="450"
+                    loading="lazy"
+                />
+                <figcaption>Materiales eléctricos</figcaption>
+                </figure>
+                <figure class="product-card">
+                <img
+                    src="https://images.unsplash.com/photo-1595846519845-68e298c2edee?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                    alt="Materiales de construcción"
+                    width="600"
+                    height="450"
+                    loading="lazy"
+                />
+                <figcaption>Materiales de construcción</figcaption>
+                </figure>
+                <figure class="product-card">
+                <img
+                    src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                    alt="Pinturas y acabados"
+                    width="600"
+                    height="450"
+                    loading="lazy"
+                />
+                <figcaption>Pinturas y acabados</figcaption>
+                </figure>
+                <figure class="product-card">
+                <img
+                    src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                    alt="Tubería PVC y accesorios"
+                    width="600"
+                    height="450"
+                    loading="lazy"
+                />
+                <figcaption>PVC y accesorios</figcaption>
+                </figure>
+            </div>
+            </div>
+        </section>
+
+        <section id="servicios" aria-labelledby="servicios-title">
+            <div class="section__inner">
+                <h2 class="section-title" id="servicios-title">Servicios</h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">🚚</div>
+                    <h3>Transporte a domicilio</h3>
+                    <p>
+                        Entregamos tus materiales hasta tu ubicación. (Costo adicional
+                        según distancia)
+                    </p>
+                    </article>
+                    <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">📦</div>
+                    <h3>Pedidos personalizados</h3>
+                    <p>Conseguimos productos bajo pedido.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ubicación -->
+        <section id="ubicacion" aria-labelledby="ubicacion-title">
+            <div class="section__inner">
+            <h2 class="section-title" id="ubicacion-title">Ubicación</h2>
+            <div class="location-grid">
+                <div class="map-embed">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.779110307019!2d-78.5044592!3d-0.2540154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d599b45c58e155%3A0xa91ecc82a435a72d!2sAndy%20Ferreter%C3%ADa!5e0!3m2!1sen!2sec!4v1777692033972!5m2!1sen!2sec"
+                    title="Ubicacion de Andy Ferreteria"
+                    loading="lazy">
+                </iframe>
+                </div>
+                <div class="address-block">
+                <p><strong>Dirección:</strong></p>
+                <p>
+                    Calle E12 Local S8-411 San Patricio De Puengasi, Quito
+                </p>
+                <p><strong>Referencia:</strong></p>
+                <p>
+                    A una cuadra de la Liga Deportiva San Patricio de Puengasi
+                </p>
+                <p>
+                    <a href="https://maps.app.goo.gl/Lkwuow3FyMBLN6Mx6" target="_blank" rel="noopener"
+                    >Abrir en Google Maps</a
+                    >
+                </p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Horarios — tabla del mockup -->
+        <section id="horarios" aria-labelledby="horarios-title">
+            <div class="section__inner">
+                <h2 class="section-title" id="horarios-title">
+                    Horarios de Atención
+                </h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                            <th scope="col">Día</th>
+                            <th scope="col">Hora</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Lunes</td>
+                            <td>8:00 - 18:30</td>
+                            </tr>
+                            <tr>
+                            <td>Martes</td>
+                            <td>8:00 - 18:30</td>
+                            </tr>
+                            <tr>
+                            <td>Miércoles</td>
+                            <td>8:00 - 18:30</td>
+                            </tr>
+                            <tr>
+                            <td>Jueves</td>
+                            <td>8:00 - 18:30</td>
+                            </tr>
+                            <tr>
+                            <td>Viernes</td>
+                            <td>8:00 - 18:30</td>
+                            </tr>
+                            <tr>
+                            <td>Sábado</td>
+                            <td>8:00 - 16:30</td>
+                            </tr>
+                            <tr>
+                            <td>Domingo</td>
+                            <td>8:30 - 12:30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto: para mensajes del servidor tras envío, usa index.php -->
+        <section id="contacto" aria-labelledby="contacto-title">
+            <div class="section__inner contact-layout">
+            <h2 class="section-title" id="contacto-title">Contáctanos</h2>
+
+            <p
+                id="form-msg-ok"
+                class="form-flash form-flash--ok"
+                hidden
+                role="status"
+            >
+                Mensaje enviado correctamente. Gracias por contactarnos.
+            </p>
+            <p
+                id="form-msg-err"
+                class="form-flash form-flash--err"
+                hidden
+                role="alert"
+            >
+                No se pudo enviar el mensaje. Intenta de nuevo.
+            </p>
+
+            <form
+                class="contact-form"
+                method="post"
+                action="contacto.php"
+            >
+                <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <div class="form-field-col">
+                    <input
+                    id="nombre"
+                    name="nombre"
+                    type="text"
+                    autocomplete="name"
+                    maxlength="120"
+                    required
+                    aria-invalid="false"
+                    />
+                    <p
+                    id="nombre-error"
+                    class="field-error"
+                    hidden
+                    role="alert"
+                    ></p>
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="email">Email</label>
+                <div class="form-field-col">
+                    <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    inputmode="email"
+                    maxlength="180"
+                    required
+                    aria-invalid="false"
+                    />
+                    <p
+                    id="email-error"
+                    class="field-error"
+                    hidden
+                    role="alert"
+                    ></p>
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <div class="form-field-col">
+                    <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    maxlength="4000"
+                    required
+                    aria-invalid="false"
+                    ></textarea>
+                    <p
+                    id="mensaje-error"
+                    class="field-error"
+                    hidden
+                    role="alert"
+                    ></p>
+                </div>
+                </div>
+                <div class="form-actions">
+                <button class="btn btn--accent" type="submit">
+                    Enviar Mensaje
+                </button>
+                </div>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p class="footer-brand">Andy Ferretería</p>
+        <div class="footer-grid">
+          <div class="footer-col">
+            <p>
+              <span aria-hidden="true">📍</span>
+              <strong>Dirección:</strong>
+              <span>
+                Calle E12 Local S8-411 San Patricio De Puengasi, Quito
+              </span>
+            </p>
+            <p>
+              <span aria-hidden="true">📞</span>
+              <span>Teléfono / WhatsApp: 099 361 4520</span>
+            </p>
+          </div>
+          <div class="footer-col">
+            <p>
+              <span aria-hidden="true">🕐</span>
+              <strong>Horario:</strong>
+              <span>
+                Lunes a Viernes: 08:00 - 18:30, Sábado: 08:00 -
+                16:30
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="footer-social">
+          <p class="links">
+            Síguenos:
+            <a
+              href="https://www.facebook.com/andyferreteria"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            |
+            <a href="https://wa.me/593993614520" target="_blank" rel="noopener">
+                WhatsApp
+            </a>
+          </p>
+        </div>
+        <p class="footer-copy">
+          © 2026 Andy Ferretería — Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
