@@ -88,13 +88,13 @@ body {
   z-index: 10;
   margin-left: 40%;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 30px;
   max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center; 
   text-align: center;
+  
 }
 
 .portada-titulo {
@@ -107,6 +107,11 @@ body {
   font-size: 1.0rem;
   line-height: 0.7;
   margin-bottom: auto;
+}
+
+.portada-titulo, .portada-eslogan p {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  color: #e1dd63;
 }
 
 .portada-boton {
@@ -240,7 +245,7 @@ body {
 
 .servicio-imagen img {
   width: 100%;
-  height: 200px;
+  height: 450px;
   object-fit: cover;
   border-radius: 4px;
   margin-bottom: 15px;
