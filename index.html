@@ -278,23 +278,28 @@
                 <h2>
                     Contáctanos
                 </h2>
-                <div class="contacto-formulario">
-                    <form>
+                <div 
+                    class="contacto-formulario">
+                    <form action="contacto.php" method="POST">
                         <div class="formulario-grupo">
                             <label for="nombre">
                                 Nombre
                             </label>
                             <input type="text" 
-                                id="nombre" 
-                                placeholder="Ingresa tu nombre">
+                                id="nombre"
+                                name="nombre" 
+                                placeholder="Ingresa tu nombre"
+                                required>
                         </div>
                         <div class="formulario-grupo">
                             <label for="email">
-                                Email
+                                Correo Electronico
                             </label>
                             <input type="email" 
-                                id="email" 
-                                placeholder="Ingresa tu email">
+                                id="email"
+                                name="email"
+                                placeholder="Ingresa tu email"
+                                required>
                         </div>
                         <div class="formulario-grupo">
                             <label for="mensaje">
@@ -302,8 +307,10 @@
                             </label>
                             <textarea 
                                 id="mensaje" 
+                                name="mensaje"
                                 rows="4" 
-                                placeholder="Escribe tu mensaje">
+                                placeholder="Escribe tu mensaje"
+                                required>
                             </textarea>
                         </div>
                         <button 
